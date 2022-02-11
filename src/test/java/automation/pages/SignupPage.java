@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import static org.junit.Assert.assertEquals;
 
-public class SignUpPage extends BasePage{
+public class SignupPage extends BasePage{
     final String SIGNUP_PAGE_URL= "http://3.129.60.236:8080/bank/signup";
 
     @Override

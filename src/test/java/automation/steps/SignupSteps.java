@@ -1,7 +1,7 @@
 package automation.steps;
 
 import automation.pages.LoginPage;
-import automation.pages.SignUpPage;
+import automation.pages.SignupPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,7 +9,7 @@ import io.cucumber.java.en.When;
 public class SignupSteps {
 
     LoginPage loginPage = new LoginPage();
-    SignUpPage signUpPage = new SignUpPage();
+    SignupPage signupPage = new SignupPage();
 
     @Then("verify user is on login page")
     public void verifyUserIsOnLoginPage() {
@@ -23,22 +23,22 @@ public class SignupSteps {
 
     @Then("verify user is on signup page")
     public void verifyUserIsOnSignupPage() {
-        signUpPage.verifyPage();
+        signupPage.verifyPage();
     }
 
     @And("verify title of the signup page")
     public void verifyTitleOfTheSignupPage() {
-        signUpPage.verifyTitle();
+        signupPage.verifyTitle();
     }
 
     @When("fill in the first form")
     public void fillInTheFirstForm() throws Exception {
-        signUpPage.fillInFirstForm();
+        signupPage.fillInFirstForm();
     }
 
     @Then("fill in the second form")
     public void fillInTheSecondForm() {
-        signUpPage.fillInSecondForm();
+        signupPage.fillInSecondForm();
     }
 
 

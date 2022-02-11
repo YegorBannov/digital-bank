@@ -14,10 +14,10 @@ public class LoginSteps {
         loginPage.openWebsite();
     }
 
-    @When("user do login")
-    public void user_do_login() {
-        loginPage.doLogin();
-    }
+//    @When("user do login")
+//    public void user_do_login() {
+//        loginPage.doLogin();
+//    }
 
 
 }

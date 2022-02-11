@@ -9,7 +9,7 @@ public class Hooks {
 
     @Before
     public void setUp(){
-        DriverUtils.createDriver();
+        DriverUtils.createDriver();;;;
     }
 
     @After

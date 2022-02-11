@@ -3,7 +3,6 @@ Feature: This feature file to test functionality related to signup
 
   Scenario: Verify User Can signup
     Given user open website
-#    Then verify user is on login page
     When user click on signup link
     Then verify user is on signup page
     And verify title of the signup page

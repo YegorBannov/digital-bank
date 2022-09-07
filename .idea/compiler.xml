@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CucumberAutomationFramework" />
         <module name="devx-cucumber-automation-framework" />
+        <module name="digital-bank" />
       </profile>
     </annotationProcessing>
   </component>
